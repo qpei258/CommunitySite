@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#container {
+	margin: 0 auto;
+	width: 100%;
+}
+
+header {
+	width: 100%;
+	height: 40px;
+	background-color: blue;
+	padding: 0 10%;
+
+}
+
+#menu {
+	float: left;
+	height:100%;
+	width: 250px;
+	background-color: indigo;
+}
+
+#userMenu {
+	float: right;
+	height:100%;
+	width: 250px;
+	background-color: indigo;
+}
+
+#Contents {
+	clear: both;
+	margin:0 10%;
+	width: 80%;
+	height: 1200px;
+	background-color: orange;
+}
+
+#mainContents {
+	float: left;
+	width: 70%;
+	height: 100%;
+	margin : 0px 10px ;
+	background-color: violet;
+}
+
+#chanel {
+	width: 98%;
+	height: 40px;
+	margin: 10px 1%;
+	background-color: purple;
+}
+
+#tab {
+	width: 98%;
+	height: 180px;
+	margin: 0 1%;
+	background-color: yellow;
+}
+
+#board{
+	width: 98%;
+	height: 860px;
+	margin: 0 1%;
+	background-color: green;
+}
+
+#boardMenu{
+	width: 98%;
+	height: 40px;
+	margin: 5px 1%;
+	background-color: black;
+}
+#boardNum {
+	width: 98%;
+	height: 40px;
+	margin: 10px 1%;
+	background-color: black;
+}
+
+#sideContents {
+	float: right;
+	width: 25%;
+	height: 100%;
+	margin : 0px 10px;
+	background-color: violet;
+}
+
+#bestPost {
+	width: 100%;
+	height: 300px;
+	margin: 10px 0;
+	background-color: gray;
+}
+
+footer {
+	clear: both;
+	width: 100%;
+	height: 100px;
+	margin-top: 10px;
+	background-color: red;
+}
+
