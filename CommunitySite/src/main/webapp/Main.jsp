@@ -9,14 +9,7 @@
 </head>
 <body>
 	<div id="container">
-		<header>
-			<nav id="menu">
-			
-			</nav>
-			<nav id="userMenu">
-			
-			</nav>
-		</header>
+	<jsp:include page="header.jsp"></jsp:include>
 		<div id ="Contents">
 			<div id="mainContents">
 				<div id="chanel">
