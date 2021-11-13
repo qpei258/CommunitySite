@@ -5,38 +5,38 @@
 <head>
 <meta charset="UTF-8">
 <title>DG's Site</title>
-	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="./css/style.css" type="text/css">
 </head>
 <body>
 	<div id="container">
-	<jsp:include page="header.jsp"></jsp:include>
-		<div id ="Contents">
-			<div id="mainContents">
-				<div id="chanel">
-				
-				</div>
-				<nav id="tab">
-				
-				</nav>
-				<div id="board">
+	<jsp:include page="header.jsp"/>
+		<div id = "body">
+			<div id ="Contents">
+				<div id="mainContents">
+					<div id="chanel">
 					
+					</div>
+					<nav id="tab">
+					
+					</nav>
+					<div id="board">
+						
+					</div>
+					<div id="boardMenu">
+					
+					</div>
+					<nav id="boardNum">
+					
+					</nav>
 				</div>
-				<div id="boardMenu">
+				<div id ="sideContents">
+					<div id="bestPost">
 				
-				</div>
-				<nav id="boardNum">
-				
-				</nav>
+					</div>
+				</div>	
 			</div>
-			<div id ="sideContents">
-				<div id="bestPost">
-			
-				</div>
-			</div>	
 		</div>
-		
-		<footer>
-		</footer>
+	<jsp:include page="footer.jsp"/>
 	</div>
 </body>
 </html>
