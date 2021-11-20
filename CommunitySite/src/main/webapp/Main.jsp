@@ -27,9 +27,9 @@
 							<li><a href="#">추천글</a></li>
 						</ul>
 						<select>
-								<option>등록순</option>
-								<option>추천순</option>
-								<option>댓글순</option>
+								<option><p>등록순</option>
+								<option><p>추천순</option>
+								<option><p>댓글순</option>
 						</select>
 						<a href="#">글쓰기</a>
 					</div>
@@ -51,9 +51,29 @@
 								<option>댓글순</option>
 						</select>
 						<a href="#">글쓰기</a>
+						<div id="search">
+							<input type="text" placeholder=""> 
+							<button>검색</button>
+						</div>
 					</div>
 					<nav id="boardNum">
-					
+						<ul>
+							<li><a href="#">⟪</a></li>
+							<li><a href="#">⟨</a></li>
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li><a href="#">6</a></li>
+							<li><a href="#">7</a></li>
+							<li><a href="#">8</a></li>
+							<li><a href="#">9</a></li>
+							<li><a href="#">10</a></li>
+							<li><a href="#">⟩</a></li>
+							<li><a href="#">⟫</a></li>
+							
+						</ul>
 					</nav>
 				</div>
 				<div id ="sideContents">
