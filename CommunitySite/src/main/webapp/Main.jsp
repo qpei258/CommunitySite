@@ -33,12 +33,28 @@
 						</select>
 						<a href="#">글쓰기</a>
 					</div>
-					
 					<nav id="tab">
-					
+						<div id ="latest">
+							<b>최근 방문</b>
+						</div>
+						<ul>
+							<li><a href="#">공지</a></li>
+							<li><a href="#">정보</a></li>
+							<li><a href="#">질문</a></li>
+							<li><a href="#">공략</a></li>
+						</ul>
 					</nav>
 					<div id="board">
-						
+						<table>
+								<tr>
+									<th>번호</th>
+									<th>제목</th>
+									<th>작성자</th>
+									<th>작성일</th>
+									<th>조회수</th>
+									<th>추천</th>
+								</tr>
+							</table>
 					</div>
 					<div class="boardMenu">
 						<ul>
