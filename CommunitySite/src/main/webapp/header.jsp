@@ -26,7 +26,8 @@
 		<nav>
 			<ul id="userMenu">
 				<li><a href="#">문의</a>
-				<li><a href="#">로그인</a>
+				<li><a href="login.jsp">로그인</a>
+				<li><a href="regist.jsp">회원가입</a>
 			</ul>
 		</nav>
 	</header>
