@@ -21,6 +21,7 @@ ul {
 	margin: 0 auto;
 	width: 1400px;
 	background-color: rgb(238,238,238);
+	padding-bottom: 15px;
 }
 
 
@@ -30,7 +31,7 @@ ul {
 	margin-left: auto;
     margin-right: auto;
 	width: 1400px;
-	height: 1200px;
+	height: 1250px;
 	background-color:  rgb(238,238,238);
 }
 
@@ -46,7 +47,7 @@ ul {
 #chanel {
 	width: 95%;
 	height: 45px;
-	margin: 10px 2.5% 10px 2.5%;
+	margin: 20px 2.5% 10px 2.5%;
 	border-top: 1px solid rgb(187,187,187);
 	border-bottom: 1px solid rgb(187,187,187);
 
