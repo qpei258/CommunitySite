@@ -8,8 +8,8 @@
 	<link rel="stylesheet" href="./css/style.css" type="text/css">
 </head>
 <body>
-	<div id="container">
 	<jsp:include page="header.jsp"/>
+	<div id="container">
 		<div id = "body">
 			<div id ="Contents">
 				<div id="mainContents">
@@ -102,7 +102,7 @@
 				</div>	
 			</div>
 		</div>
-	<jsp:include page="footer.jsp"/>
 	</div>
+	<jsp:include page="footer.jsp"/>
 </body>
 </html>
