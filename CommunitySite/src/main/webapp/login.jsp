@@ -8,8 +8,8 @@
 <link rel="stylesheet" href="./css/loginout.css" type="text/css">
 </head>
 <body>
-	<div id="container">
 	<jsp:include page="header.jsp"/>
+	<div id="container">
 		<div id ="Contents">
 			<div id="login">
 				<h1>DG</h1>
@@ -27,7 +27,7 @@
 				</div>
 			</div>
 		</div>
-	<jsp:include page="footer.jsp"/>
 	</div>
+	<jsp:include page="footer.jsp"/>
 </body>
 </html>
