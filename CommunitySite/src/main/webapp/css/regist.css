@@ -1,2 +1,97 @@
 @charset "UTF-8";
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+ul {
+	list-style: none;
+	
+}
+
+#container {
+	margin: 0 auto;
+	width: 100%;
+	background-color: rgb(238,238,238);
+}
+
+#contents {
+	clear: both;
+	margin: 0px auto;
+	width: 1400px;
+	height: 770px;
+	background-color:  rgb(238,238,238);
+	padding-bottom: 15px;
+	padding-top: 5px;
+}
+
+#regist {
+	width: 75%;
+	height: 740px;
+	background-color: white;
+	border: 1px solid rgb(187,187,187);
+	margin: 10px auto;
+}
+
+#regist h1 {
+	text-align: center;
+	color: rgb(61,65,77);
+	font-size: 100px;
+	margin-top: 20px;
+}
+
+#regist > p {
+	text-align: center;
+	color: rgb(61,65,77);
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+
+#input {
+	height: 300px;
+	width: 300px;
+	margin: 0 auto;
+}
+
+#input p {
+	font-size: 13px;
+	color: rgb(61,65,77);
+	margin-bottom: 2px;
+}
+
+
+#input input {
+	height: 30px;
+	font-size: 14px;
+	outline: none;
+	padding: 10px;
+	border: 1px solid rgb(187,187,187);
+	margin-bottom: 10px;
+}
+
+#phone input {
+	text-align: center;
+}
+
+#submit {
+	margin-top: 20px;
+}
+ 
+#submit button {
+	height: 60px;
+	width: 100%;
+	outline: none;
+	background-color: rgb(0, 105, 217);
+	border: 1px solid rgb(187,187,187);
+	font-size: 14px;
+	color: white;
+}
