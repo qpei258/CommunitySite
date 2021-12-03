@@ -11,7 +11,7 @@
 	<jsp:include page="header.jsp"/>
 	<div id="container">
 		<div id = "body">
-			<div id ="Contents">
+			<div id ="contents">
 				<div id="mainContents">
 					<div id="chanel">
 						<ul>
@@ -31,7 +31,7 @@
 								<option><p>추천순</option>
 								<option><p>댓글순</option>
 						</select>
-						<a href="#">글쓰기</a>
+						<a href="addPost.jsp">글쓰기</a>
 					</div>
 					<nav id="tab">
 						<div id ="latest">
@@ -66,7 +66,7 @@
 								<option>추천순</option>
 								<option>댓글순</option>
 						</select>
-						<a href="#">글쓰기</a>
+						<a href="addPost.jsp">글쓰기</a>
 						<div id="search">
 							<input type="text" placeholder=""> 
 							<button>검색</button>
