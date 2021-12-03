@@ -1,0 +1,147 @@
+@charset "UTF-8";
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+ul {
+	list-style: none;
+	
+}
+
+#container {
+	margin: 0 auto;
+	width: 1400px;
+	height: 1200px;
+	background-color: rgb(238,238,238);
+	padding-bottom: 15px;
+}
+
+#contents {
+	clear: both;
+	margin-left: auto;
+    margin-right: auto;
+	width: 1400px;
+	height: 100%;
+	background-color:  rgb(238,238,238);
+}
+
+#addPost {
+	width: 75%;
+	height: 1180px;
+	background-color: white;
+	border: 1px solid rgb(187,187,187);
+	margin: 0 auto 10px auto;
+}
+
+#chanel {
+	width: 95%;
+	height: 45px;
+	margin: 20px 2.5% 0 2.5%;
+	border-top: 1px solid rgb(187,187,187);
+	border-bottom: 1px solid rgb(187,187,187);
+
+}
+
+
+#chanel ul li {
+	float: left;
+	padding: 0px 20px;
+	height: 30px;
+	font-size: 16px;
+	font-weight: 500;
+	border-right: 1px solid rgb(187,187,187);
+	margin-top: 7px;
+	line-height: 30px;
+}
+
+#chanel ul li:last-child {
+	border-right: none;
+}
+
+#title {
+	width: 95%;
+	height: 45px;
+	margin: 0 2.5%;
+	border-bottom: 1px solid rgb(187,187,187);
+	line-height: 45px;
+	padding-left: 20px;
+}
+
+#category {
+	width: 95%;
+	height: 45px;
+	margin: 0 2.5%;
+	line-height: 45px;
+	border-bottom: 1px solid rgb(187,187,187);
+}
+
+#category ul li {
+	float: left;
+	padding: 0px 20px;
+	height: 30px;
+	font-size: 16px;
+	font-weight: 500;
+	margin-top: 7px;
+	line-height: 30px;
+}
+
+#category ul li:first-child {
+	float: left;
+	padding: 0px 20px;
+	height: 30px;
+	font-size: 16px;
+	font-weight: 500;
+	border-right: 1px solid rgb(187,187,187);
+	margin-top: 7px;
+	line-height: 30px;
+	margin-right: 5px;
+}
+
+#category ul li:target {
+	float: left;
+	padding: 0px 20px;
+	height: 30px;
+	font-size: 16px;
+	font-weight: 500;
+	margin-top: 7px;
+	line-height: 30px;
+	background-color: rgb(238,238,238);
+}
+
+#search {
+	float: right;
+	height: 30px;
+	width: 95%;
+	margin: 10px 2.5%;
+	border: 1px solid rgb(187,187,187);
+}
+
+#search * {
+	padding: 0px;
+	border: 0px;
+}
+
+#search input {
+	height: 90%;
+	font-size: 14px;
+	width: 880px;
+	outline: none;
+	padding: 10px;
+}
+
+#search button {
+	height: 100%;
+	width: 60px;
+	outline: none;
+	background-color: rgb(238,238,238);
+	border-right: 1px solid rgb(187,187,187);
+	font-size: 14px;
+}
