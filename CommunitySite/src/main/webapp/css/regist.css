@@ -27,7 +27,7 @@ ul {
 	clear: both;
 	margin: 0px auto;
 	width: 1400px;
-	height: 770px;
+	height: 970px;
 	background-color:  rgb(238,238,238);
 	padding-bottom: 15px;
 	padding-top: 5px;
@@ -35,7 +35,7 @@ ul {
 
 #regist {
 	width: 75%;
-	height: 740px;
+	height: 940px;
 	background-color: white;
 	border: 1px solid rgb(187,187,187);
 	margin: 10px auto;
@@ -45,7 +45,7 @@ ul {
 	text-align: center;
 	color: rgb(61,65,77);
 	font-size: 100px;
-	margin-top: 20px;
+	margin-top: 100px;
 }
 
 #regist > p {
