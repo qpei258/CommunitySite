@@ -7,7 +7,7 @@ public class MemberDAO {
 		return instance;
 	}
 	
-	public void addMember() {
+	public void addMember(MemberDTO dto) {
 		
 	}
 	
