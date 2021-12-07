@@ -23,39 +23,44 @@ ul {
 	background-color: rgb(238,238,238);
 }
 
-
-#Contents {
+#contents {
 	clear: both;
 	margin: 0px auto;
 	width: 1400px;
-	height: 770px;
+	height: 970px;
 	background-color:  rgb(238,238,238);
 	padding-bottom: 15px;
 	padding-top: 5px;
 }
 
-#login {
+#regist {
 	width: 75%;
-	height: 740px;
+	height: 940px;
 	background-color: white;
 	border: 1px solid rgb(187,187,187);
 	margin: 10px auto;
 }
 
-#login h1 {
+#regist h1 {
 	text-align: center;
 	color: rgb(61,65,77);
 	font-size: 100px;
-	margin-top: 100px;
+	margin-top: 200px;
 }
 
-#login > p {
+#regist > p {
 	text-align: center;
 	color: rgb(61,65,77);
 	font-size: 20px;
-	margin-bottom: 100px;
+	margin-bottom: 20px;
 }
 
+#regist a {
+	margin-top: 200px;
+	text-align: center;
+	color: rgb(61,65,77);
+	font-size: 50px;
+}
 
 #input {
 	height: 300px;
@@ -66,10 +71,9 @@ ul {
 #input p {
 	font-size: 13px;
 	color: rgb(61,65,77);
+	margin-bottom: 2px;
 }
-#input p:nth-child(2) {
-	margin-bottom: 10px;
-}
+
 
 #input input {
 	height: 30px;
@@ -77,16 +81,20 @@ ul {
 	outline: none;
 	padding: 10px;
 	border: 1px solid rgb(187,187,187);
+	margin-bottom: 10px;
+}
+
+#phone input {
+	text-align: center;
 }
 
 #submit {
-	float: right;
-	margin-top: 10px
+	margin-top: 20px;
 }
  
 #submit button {
-	height: 30px;
-	width: 80px;
+	height: 60px;
+	width: 100%;
 	outline: none;
 	background-color: rgb(0, 105, 217);
 	border: 1px solid rgb(187,187,187);
