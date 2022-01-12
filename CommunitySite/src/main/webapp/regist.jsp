@@ -5,7 +5,8 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="./css/regist.css" type="text/css">
-<script src="js/validation.js"></script>
+<script  src="js/validation.js">
+</script>
 <title>회원가입</title>
 </head>
 <body>
@@ -15,8 +16,8 @@
 			<div id="regist">
 				<h1>DG</h1>
 				<p><strong>회원가입</strong>
-				<div id="input">
-					<form name="signUpForm" method="post">
+				<form name="signUpForm">
+					<div id="input">
 						<p class="text"><strong>이름</strong>
 						<p><input type="text" name="name" size="35">
 						<p class="text"><strong>아이디</strong>
@@ -38,11 +39,9 @@
 						</div>
 						<p class="text"><strong>주소</strong>
 						<p><input type="text" name="address" size="35">
-						<div id="submit">
-							<button id="button">회원가입</button>
-						</div>
-					</form>
-				</div>
+						<button id="button" onclick="validateCheck()">회원가입</button>
+					</div>
+				</form>
 			</div>
 		</div>
 	</div>
