@@ -1,5 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%
+	String errMsg = (String)session.getAttribute("errMsg");
+	if(errMsg == null) errMsg = "";
+	
+	session.invalidate();
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,7 +21,7 @@
 				<h1>DG</h1>
 				<p><strong>로그인</strong>
 				<div id="input">
-					<form method="post">
+					<form method="post" action="Signin.do">
 						<p class="text"><strong>아이디</strong>
 						<p><input type="text" name="id" size="35">
 						<p class="text"><strong>비밀번호</strong>
@@ -24,6 +30,7 @@
 							<button>로그인</button>
 						</div>
 					</form>
+					<div id = "errMsg"><%=errMsg %></div>
 				</div>
 			</div>
 		</div>
