@@ -66,7 +66,7 @@ public class MemberDAO {
 			ps = conn.prepareStatement(sql);
 			ps.setString(1, Id);
 			rs = ps.executeQuery();
-			
+			rs.next();
 			if(rs.getString("password").equals(passwd))
 				result = true;
 			
@@ -76,6 +76,8 @@ public class MemberDAO {
 			e.printStackTrace();
 		}finally {
 				try {
+					if(rs != null)
+						rs.close();
 					if(ps != null)
 						ps.close();
 					if(conn != null)
