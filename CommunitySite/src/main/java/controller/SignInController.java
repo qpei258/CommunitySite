@@ -26,6 +26,8 @@ public class SignInController extends HttpServlet{
 		response.setContentType("text/html; charset=utf-8");
 		request.setCharacterEncoding("utf-8");
 		
+		
+		
 		MemberDAO dao = MemberDAO.getInstance();
 		
 		String Id = request.getParameter("id");
@@ -34,14 +36,17 @@ public class SignInController extends HttpServlet{
 		boolean result = dao.memberLogin(Id, passwd);
 		HttpSession session = request.getSession();
 		
+		System.out.println(result);
+		
 		if(result) {
 			session.setAttribute("login", result);
 			session.setAttribute("userId", Id);
 			session.setAttribute("userpass", passwd);
 			response.sendRedirect("Main.jsp");
-		}else
+		}else {
 			session.setAttribute("errMsg", "로그인에 실패하였습니다.");
 			response.sendRedirect("login.jsp");
+		}
 	}
 	
 	
