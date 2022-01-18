@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,9 +26,15 @@
 		</nav>
 		<nav>
 			<ul id="userMenu">
-				<li><a href="#">문의</a>
-				<li><a href="login.jsp">로그인</a>
-				<li><a href="regist.jsp">회원가입</a>
+				<%if(session.getAttribute("login") == null) {%>
+					<li><a href="#">문의</a>
+					<li><a href="login.jsp">로그인</a>
+					<li><a href="regist.jsp">회원가입</a>
+				<%}else {%>
+					<li><a href="#">문의</a>
+					<li><a href="LogOut.do">로그아웃</a>
+					<li><a href="myInfo.jsp">내정보</a>
+				<%} %>
 			</ul>
 		</nav>
 	</header>
