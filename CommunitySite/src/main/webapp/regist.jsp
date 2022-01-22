@@ -40,10 +40,9 @@
 						</div>
 						<p class="text"><strong>주소</strong>
 						<div>
+							<input type="text" id="address" placeholder="주소" size="35" readonly onclick="execDaumPostcode()">
 							<input type="text" id="postcode" placeholder="우편번호" size="13" readonly>
 							<input type="text" id="detailAddress" placeholder="상세주소" size="14">
-							<input type="text" id="address" placeholder="주소" size="35" readonly>
-							<button id="search" onclick="execDaumPostcode()">우편번호 검색</button>
 						</div>
 						<button id="button" onclick="validateCheck()">회원가입</button>
 					</div>
