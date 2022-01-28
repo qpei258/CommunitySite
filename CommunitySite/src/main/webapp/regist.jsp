@@ -12,12 +12,13 @@
 </head>
 <body>
 	<jsp:include page="header.jsp"/>
+
 	<div id="container">
 		<div id="contents">
 			<div id="regist">
 				<h1>DG</h1>
 				<p><strong>회원가입</strong>
-				<form name="signUpForm" method="post">
+				<form name="signUpForm" onsubmit="return false" >
 					<div id="input">
 						<p class="text"><strong>이름</strong>
 						<p><input type="text" name="name" size="35">
@@ -40,18 +41,16 @@
 						</div>
 						<p class="text"><strong>주소</strong>
 						<div>
-							<input type="text" id="address" placeholder="주소" size="35" readonly onclick="execDaumPostcode()">
-							<input type="text" id="postcode" placeholder="우편번호" size="13" readonly>
+							<input type="text" id="member_addr" placeholder="주소" size="35" onclick="findAddr()" readonly>
+							<input type="text" id="member_post" placeholder="우편번호" size="13" readonly>
 							<input type="text" id="detailAddress" placeholder="상세주소" size="14">
 						</div>
 						<button id="button" onclick="validateCheck()">회원가입</button>
 					</div>
-					
 				</form>
 			</div>
 		</div>
 	</div>
-
 	<jsp:include page="footer.jsp"/>
 </body>
 </html>
