@@ -90,4 +90,39 @@ public class MemberDAO {
 		}
 		return result;
 	}
+	
+	public boolean confirmId(String id) {
+		Connection conn = null;
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+		boolean result = false;
+		String url = "jdbc:mysql://localhost:3306/communityDB";
+		String user = "root";
+		String password = "1234";
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			conn = DriverManager.getConnection(url, user, password);
+			String sql = "select id from member where id=?";
+			ps = conn.prepareStatement(sql);
+			rs = ps.executeQuery();
+			if(rs.next()) {
+				result = true;
+			}
+		}catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			try {
+				if(rs != null)
+					rs.close();
+				if(ps != null)
+					ps.close();
+				if(conn != null)
+					conn.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+				throw new RuntimeException(e.getMessage());
+			}
+		}
+		return result;
+	}
 }
