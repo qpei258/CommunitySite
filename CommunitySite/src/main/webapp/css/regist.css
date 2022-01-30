@@ -78,15 +78,44 @@ ul {
 	margin-bottom: 10px;
 }
 
+
 #phone input {
 	text-align: center;
 }
 
-#submit {
-	margin-top: 20px;
+#idSlot{
+	width: 297px;
+	height: 30px;
+	border: 1px solid rgb(187,187,187);
+	margin-bottom: 10px;
+}
+
+#idSlot * {
+	padding: 0px;
+	border: 0px;
+}
+
+#idSlot input {
+	height: 25px;
+	width: 70%;
+	font-size: 14px;
+	border: 0px;
+	outline: none;
+	padding: 10px;
+}
+
+#idSlot button {
+	height: 28px;
+	width: 27%;
+	outline: none;
+	background-color: white;
+	border-left: 1px solid rgb(187,187,187);
+	font-size: 14px;
+	color: rgb(61,65,77);
 }
  
-#submit button {
+#button{
+	margin-top: 20px;
 	height: 60px;
 	width: 100%;
 	outline: none;
@@ -95,3 +124,8 @@ ul {
 	font-size: 14px;
 	color: white;
 }
+
+#button:hover {
+	cursor: pointer;
+}
+
