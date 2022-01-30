@@ -23,7 +23,10 @@
 						<p class="text"><strong>이름</strong>
 						<p><input type="text" name="name" size="35">
 						<p class="text"><strong>아이디</strong>
-						<p><input type="text" name="id" size="35">
+						<div id="idSlot">
+							<input type="text" name="id" > 
+							<button>중복확인</button>
+						</div>
 						<p class="text"><strong>비밀번호</strong>
 						<p><input type="password" name="passwd" size="35">
 						<p class="text"><strong>비밀번호 확인</strong>
